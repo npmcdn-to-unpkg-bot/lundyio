@@ -1,0 +1,30 @@
+{
+  "name": "lundyio",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lundyio/lundyio"
+  },
+  "author": "Lundy Hartshorn",
+  "license": "ISC",
+  "homepage": "https://lundy.io",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-busboy": "^2.5.0"
+  },
+  "devDependencies": {
+    "cors": "^2.7.1",
+    "gulp": "*",
+    "node-sass": "^3.8.0",
+    "node-watch": "^0.3.5",
+    "gulp-sass": "*",
+    "gulp-rename": "*",
+    "gulp-concat": "*"
+  }
+}
