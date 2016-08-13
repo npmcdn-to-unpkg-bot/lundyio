@@ -17,10 +17,12 @@ app.component('app', {
     ]
 });
 
-app.controller('AppController', function($http, dataService, $timeout){
+app.controller('AppController', function($http, dataService){
 
     // Expose data service to view
     this.dataService = dataService;
+
+    window.location.href = 'https://www.linkedin.com/in/lundyhartshorn';
     
 });
 
