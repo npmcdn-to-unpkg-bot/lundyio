@@ -7,11 +7,15 @@ angular.module('home', [])
 
             return true;
         },
-        controller: function(dataService){
+        controller: function(dataService, $timeout){
 
             console.log('Home Loaded');
 
             this.dataService = dataService;
+
+            $timeout(function(){
+                window.location.href = 'https://www.linkedin.com/in/lundyhartshorn';
+            });
 
         },
         controllerAs: 'vm'
